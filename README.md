@@ -4,6 +4,8 @@
 1. **Class A**: The classification of classical ciphers (specifically ACA ciphers)
 2. **Class B**: The analysis of Modern ciphers.
 
+   [Note: This codebase contains only the backend implementation of the TorpedoX tool. The frontend application, which was developed using Electron JS, is not included in this repository.]
+
 ## Overview
 
 TorpedoX provides an efficient solution for automatically identifying cryptographic algorithms by leveraging machine learning techniques. This tool is ideal for cryptanalysis, data security assessments, and cryptographic research.
