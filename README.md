@@ -17,6 +17,7 @@ For the detection and classification of classical ciphers, **TorpedoX** uses a F
 - Playfair
 - Amsco
 - Autokey, and others.
+  [ACA Ciphers](https://www.cryptogram.org/resource-area/cipher-types/)
 
 **Feature Extraction:** The model uses a Feed-Forward Neural Network (FFN) to extract distinct features from cipher texts, enabling it to differentiate between various classical cipher types based on their unique recurring characteristics.
 ### 2. Modern Cipher Analysis
