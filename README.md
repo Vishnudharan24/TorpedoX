@@ -30,16 +30,3 @@ The analysis of modern cryptographic algorithms is handled through three distinc
 ### Research and Development
 
 We are actively developing a **CNN-FNN hybrid model** that will incorporate a decision fusion approach to combine the results from the three existing models (Differential, Higher Order, and Linear Analysis). This hybrid model aims to improve detection accuracy by 60% leveraging the strengths of each individual analysis method.
-
-## Contributers 
-- [Santhosh](https://www.linkedin.com/in/santhosh-r-43a161227/)
-
-- [Vishnudharan](https://www.linkedin.com/in/vishnudharan-baskar/)
-
-- [Shalini](https://www.linkedin.com/in/shalini-gr-7131a0291/)
-
-- [Saran](https://www.linkedin.com/in/saran-r-k-0688b631b/)
-
-- [Rajeshwari](https://www.linkedin.com/in/rajeshwari-mughilan-0589182b5/)
-
-- [Riethuram](https://www.linkedin.com/in/saran-r-k-0688b631b/)
