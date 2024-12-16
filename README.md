@@ -13,14 +13,14 @@ The user provides a file containing **hexadecimal values (hex values)** for anal
 
 ### Layer 1: Hash or Ciphertext Detection  
 - The first model determines whether the input hex data represents a **hash** or **ciphertext**.  
-  - **If Hash** → The system proceeds to detect the specific hashing algorithm.  
+  - **If Hash** → The system proceeds to detect the specific hashing algorithm (Sha-1,Sha-256,RipeMD etc..).  
   - **If Ciphertext** → It advances to Layer 2.  
 
 ---
 
 ### Layer 2: Classical or Modern Cipher Detection  
 - If the input is ciphertext, this layer determines whether the encryption algorithm is:  
-  - **Classical Cipher** → Classical cipher detection models classify the cipher (Vigenère, Playfair, OneTimePad).  
+  - **Classical Cipher** → Classical cipher detection models classify the cipher (Vigenère, Playfair, OneTimePad etc..).  
   - **Modern Cipher** → The process moves to Layer 3.  
 
 ---
