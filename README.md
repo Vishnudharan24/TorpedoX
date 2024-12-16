@@ -20,7 +20,7 @@ The user provides a file containing **hexadecimal values (hex values)** for anal
 
 ### Layer 2: Classical or Modern Cipher Detection  
 - If the input is ciphertext, this layer determines whether the encryption algorithm is:  
-  - **Classical Cipher** → Classical cipher detection models classify the cipher (e.g., Vigenère, Playfair, etc.).  
+  - **Classical Cipher** → Classical cipher detection models classify the cipher (Vigenère, Playfair, OneTimePad).  
   - **Modern Cipher** → The process moves to Layer 3.  
 
 ---
@@ -28,21 +28,21 @@ The user provides a file containing **hexadecimal values (hex values)** for anal
 ### Layer 3: Symmetric or Asymmetric Cipher Classification  
 - If the input belongs to modern cryptography, this layer determines whether the cipher is:  
   - **Symmetric Encryption** → Moves to Layer 4 for further classification.  
-  - **Asymmetric Encryption** → Directly classifies the specific asymmetric algorithm (e.g., RSA, ECC, etc.).  
+  - **Asymmetric Encryption** → Directly classifies the specific asymmetric algorithm (RSA, ECDSA, DSA, Paillier, Elgamal).  
 
 ---
 
 ### Layer 4: Block or Stream Cipher Classification  
 - If the cipher is symmetric, this layer identifies whether it is:  
-  - **Block Cipher** → Proceeds to Layer 5 to narrow down the exact block cipher algorithm (e.g., AES, DES, etc.).  
-  - **Stream Cipher** → Proceeds to Layer 5 to identify the stream cipher algorithm (e.g., ChaCha20, Salsa20, etc.).  
+  - **Block Cipher** → Proceeds to Layer 5 to narrow down the exact block cipher algorithm.
+  - **Stream Cipher** → Proceeds to Layer 5 to identify the stream cipher algorithm.  
 
 ---
 
 ### Layer 5: Algorithm Detection  
 - Based on the results from the previous layers, TorpedoX performs a final classification to accurately identify the specific algorithm used:  
-  - **Block Ciphers**: AES, DES, Blowfish, Twofish, etc.  
-  - **Stream Ciphers**: ChaCha20, Salsa20, etc.  
+  - **Block Ciphers**: AES, DES, Blowfish, Twofish.
+  - **Stream Ciphers**: ChaCha20, Salsa20.
 
 ---
 
