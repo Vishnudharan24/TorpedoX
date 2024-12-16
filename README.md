@@ -60,4 +60,4 @@ This additional classification ensures deeper insights into the cryptographic me
 ---
 
 ### Summary  
-This **layered approach** ensures that TorpedoX delivers precise and reliable cryptographic algorithm identification, making it a powerful tool for cryptography and cybersecurity professionals.  
+This **layered approach** ensures that TorpedoX delivers precise and reliable cryptographic algorithm identification.
