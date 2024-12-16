@@ -47,4 +47,3 @@ The user provides a file containing **hexadecimal values (hex values)** for anal
 ---
 
 This **layered approach** ensures that TorpedoX delivers precise and reliable cryptographic algorithm identification.
-```
